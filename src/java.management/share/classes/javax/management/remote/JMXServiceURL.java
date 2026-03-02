@@ -291,7 +291,7 @@ public class JMXServiceURL implements Serializable {
                          String urlPath)
             throws MalformedURLException {
         if (protocol == null) {
-            throw new MalformedURLException("Misssing protocol name");
+            throw new MalformedURLException("Missing protocol name");
         }
         if (host == null) {
             InetAddress local;
