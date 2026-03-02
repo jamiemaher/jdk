@@ -23,7 +23,7 @@
 
 /**
  * Class to have an indirectly missing annotation applied for
- * running MisssingTest.
+ * running MissingTest.
  */
 @MissingWrapper(@Missing)
 @Marker
